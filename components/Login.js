@@ -37,7 +37,7 @@ const Login = () => {
       return;
     }
 
-    navigation.navigate("home", { student });
+    navigation.navigate("dashboard", { student });
   };
 
   return (
